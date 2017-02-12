@@ -10,5 +10,9 @@
 
 @interface UserListCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *userNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *emailAddressLabel;
+@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
 
 @end

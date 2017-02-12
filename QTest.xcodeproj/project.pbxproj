@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093B81BFAE5D8C9A99C61E7B /* libPods-QTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C09427EC430B835F928ABA44 /* libPods-QTestTests.a */; };
+		2355DE498AD558D344C44416 /* libPods-QTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE2FF447A491EFB19274060 /* libPods-QTest.a */; };
 		9AF56F711E50F0FD00CE723C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56F701E50F0FD00CE723C /* main.m */; };
 		9AF56F741E50F0FD00CE723C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56F731E50F0FD00CE723C /* AppDelegate.m */; };
 		9AF56F7A1E50F0FE00CE723C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF56F781E50F0FE00CE723C /* Main.storyboard */; };
 		9AF56F7C1E50F0FE00CE723C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF56F7B1E50F0FE00CE723C /* Assets.xcassets */; };
 		9AF56F7F1E50F0FE00CE723C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF56F7D1E50F0FE00CE723C /* LaunchScreen.storyboard */; };
-		9AF56F8A1E50F0FE00CE723C /* QTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56F891E50F0FE00CE723C /* QTestTests.m */; };
 		9AF56F9B1E50F1E000CE723C /* UserListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56F9A1E50F1E000CE723C /* UserListCell.m */; };
 		9AF56F9E1E50F22100CE723C /* UserDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56F9D1E50F22100CE723C /* UserDetailCell.m */; };
 		9AF56FA11E50F24800CE723C /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56FA01E50F24800CE723C /* UserModel.m */; };
 		9AF56FA51E50F26500CE723C /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56FA41E50F26500CE723C /* WebServiceManager.m */; };
 		9AF56FA81E50F27B00CE723C /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56FA71E50F27B00CE723C /* UserListViewController.m */; };
 		9AF56FAB1E50F29300CE723C /* UserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56FAA1E50F29300CE723C /* UserDetailViewController.m */; };
+		9AF56FAD1E510AC700CE723C /* UserListViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56FAC1E510AC700CE723C /* UserListViewControllerTest.m */; };
+		9AF56FAF1E510ADE00CE723C /* UserDetailViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56FAE1E510ADE00CE723C /* UserDetailViewControllerTest.m */; };
+		9AF56FB11E510AEB00CE723C /* UserModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56FB01E510AEB00CE723C /* UserModelTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3093B4850B2AA57A0794D365 /* Pods-QTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-QTest/Pods-QTest.release.xcconfig"; sourceTree = "<group>"; };
+		8AE2FF447A491EFB19274060 /* libPods-QTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E71A1DB46B70FFA72391916 /* Pods-QTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QTest/Pods-QTest.debug.xcconfig"; sourceTree = "<group>"; };
 		9AF56F6C1E50F0FD00CE723C /* QTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF56F701E50F0FD00CE723C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AF56F721E50F0FD00CE723C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,7 +48,6 @@
 		9AF56F7E1E50F0FE00CE723C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AF56F801E50F0FE00CE723C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AF56F851E50F0FE00CE723C /* QTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AF56F891E50F0FE00CE723C /* QTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTestTests.m; sourceTree = "<group>"; };
 		9AF56F8B1E50F0FE00CE723C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AF56F991E50F1E000CE723C /* UserListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListCell.h; sourceTree = "<group>"; };
 		9AF56F9A1E50F1E000CE723C /* UserListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListCell.m; sourceTree = "<group>"; };
@@ -56,6 +62,12 @@
 		9AF56FA71E50F27B00CE723C /* UserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListViewController.m; sourceTree = "<group>"; };
 		9AF56FA91E50F29300CE723C /* UserDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailViewController.h; sourceTree = "<group>"; };
 		9AF56FAA1E50F29300CE723C /* UserDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailViewController.m; sourceTree = "<group>"; };
+		9AF56FAC1E510AC700CE723C /* UserListViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListViewControllerTest.m; sourceTree = "<group>"; };
+		9AF56FAE1E510ADE00CE723C /* UserDetailViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailViewControllerTest.m; sourceTree = "<group>"; };
+		9AF56FB01E510AEB00CE723C /* UserModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModelTest.m; sourceTree = "<group>"; };
+		A2B9BDEB0D6B500BF14AEA90 /* Pods-QTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QTestTests/Pods-QTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		C09427EC430B835F928ABA44 /* libPods-QTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0544A45AFBF790F7C9DAF8 /* Pods-QTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QTestTests/Pods-QTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2355DE498AD558D344C44416 /* libPods-QTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,18 +83,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093B81BFAE5D8C9A99C61E7B /* libPods-QTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		315BC548CCA6E22C2625B04E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AE2FF447A491EFB19274060 /* libPods-QTest.a */,
+				C09427EC430B835F928ABA44 /* libPods-QTestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9AF56F631E50F0FD00CE723C = {
 			isa = PBXGroup;
 			children = (
 				9AF56F6E1E50F0FD00CE723C /* QTest */,
 				9AF56F881E50F0FE00CE723C /* QTestTests */,
 				9AF56F6D1E50F0FD00CE723C /* Products */,
+				CE6F34C2C7CC7A0FF269570F /* Pods */,
+				315BC548CCA6E22C2625B04E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,7 +145,9 @@
 		9AF56F881E50F0FE00CE723C /* QTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				9AF56F891E50F0FE00CE723C /* QTestTests.m */,
+				9AF56FAC1E510AC700CE723C /* UserListViewControllerTest.m */,
+				9AF56FAE1E510ADE00CE723C /* UserDetailViewControllerTest.m */,
+				9AF56FB01E510AEB00CE723C /* UserModelTest.m */,
 				9AF56F8B1E50F0FE00CE723C /* Info.plist */,
 			);
 			path = QTestTests;
@@ -129,9 +156,9 @@
 		9AF56F941E50F1B100CE723C /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				9AF56F971E50F1B100CE723C /* Utilities */,
 				9AF56F951E50F1B100CE723C /* CustomCells */,
 				9AF56F961E50F1B100CE723C /* Models */,
-				9AF56F971E50F1B100CE723C /* Utilities */,
 				9AF56F981E50F1B100CE723C /* ViewControllers */,
 			);
 			path = SourceCode;
@@ -178,6 +205,17 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		CE6F34C2C7CC7A0FF269570F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E71A1DB46B70FFA72391916 /* Pods-QTest.debug.xcconfig */,
+				3093B4850B2AA57A0794D365 /* Pods-QTest.release.xcconfig */,
+				CC0544A45AFBF790F7C9DAF8 /* Pods-QTestTests.debug.xcconfig */,
+				A2B9BDEB0D6B500BF14AEA90 /* Pods-QTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AF56F8E1E50F0FE00CE723C /* Build configuration list for PBXNativeTarget "QTest" */;
 			buildPhases = (
+				8BFA9C019DDEE59975F864B7 /* [CP] Check Pods Manifest.lock */,
 				9AF56F681E50F0FD00CE723C /* Sources */,
 				9AF56F691E50F0FD00CE723C /* Frameworks */,
 				9AF56F6A1E50F0FD00CE723C /* Resources */,
+				08A3CF28507CE9D83E68B631 /* [CP] Embed Pods Frameworks */,
+				C6431CD244CF49D73B8C2C80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AF56F911E50F0FE00CE723C /* Build configuration list for PBXNativeTarget "QTestTests" */;
 			buildPhases = (
+				710210EF3CACB753602BC989 /* [CP] Check Pods Manifest.lock */,
 				9AF56F811E50F0FE00CE723C /* Sources */,
 				9AF56F821E50F0FE00CE723C /* Frameworks */,
 				9AF56F831E50F0FE00CE723C /* Resources */,
+				3972C5597360A9FBDFFADA32 /* [CP] Embed Pods Frameworks */,
+				9FE05E0D14AA4D4D650C8C66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +319,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08A3CF28507CE9D83E68B631 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QTest/Pods-QTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3972C5597360A9FBDFFADA32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QTestTests/Pods-QTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		710210EF3CACB753602BC989 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BFA9C019DDEE59975F864B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE05E0D14AA4D4D650C8C66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QTestTests/Pods-QTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6431CD244CF49D73B8C2C80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QTest/Pods-QTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9AF56F681E50F0FD00CE723C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -295,7 +432,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF56F8A1E50F0FE00CE723C /* QTestTests.m in Sources */,
+				9AF56FAF1E510ADE00CE723C /* UserDetailViewControllerTest.m in Sources */,
+				9AF56FB11E510AEB00CE723C /* UserModelTest.m in Sources */,
+				9AF56FAD1E510AC700CE723C /* UserListViewControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +560,7 @@
 		};
 		9AF56F8F1E50F0FE00CE723C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E71A1DB46B70FFA72391916 /* Pods-QTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QTest/Info.plist;
@@ -432,6 +572,7 @@
 		};
 		9AF56F901E50F0FE00CE723C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3093B4850B2AA57A0794D365 /* Pods-QTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QTest/Info.plist;
@@ -443,6 +584,7 @@
 		};
 		9AF56F921E50F0FE00CE723C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0544A45AFBF790F7C9DAF8 /* Pods-QTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QTestTests/Info.plist;
@@ -455,6 +597,7 @@
 		};
 		9AF56F931E50F0FE00CE723C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B9BDEB0D6B500BF14AEA90 /* Pods-QTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QTestTests/Info.plist;
@@ -484,6 +627,7 @@
 				9AF56F901E50F0FE00CE723C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AF56F911E50F0FE00CE723C /* Build configuration list for PBXNativeTarget "QTestTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +636,7 @@
 				9AF56F931E50F0FE00CE723C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

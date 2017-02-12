@@ -9,5 +9,10 @@
 #ifndef WebServiceConstants_h
 #define WebServiceConstants_h
 
+#define kBaseURL @"https://jsonplaceholder.typicode.com/"
+
+#define kUserList @"users"
+
+#define kUserDetail @"posts?userId="
 
 #endif /* WebServiceConstants_h */

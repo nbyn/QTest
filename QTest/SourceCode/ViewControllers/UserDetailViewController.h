@@ -10,4 +10,11 @@
 
 @interface UserDetailViewController : UIViewController
 
+@property (nonatomic,strong) NSString * userID;
+@property (nonatomic,strong) NSString * name;
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+- (void)loadUserPosts;
+
 @end

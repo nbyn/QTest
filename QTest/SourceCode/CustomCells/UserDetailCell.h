@@ -10,5 +10,7 @@
 
 @interface UserDetailCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *postTitleLabel;
+@property (weak, nonatomic) IBOutlet UITextView *postBodyTextView;
 
 @end

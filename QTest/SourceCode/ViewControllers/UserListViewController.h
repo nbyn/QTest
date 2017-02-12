@@ -10,4 +10,8 @@
 
 @interface UserListViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+- (void)loadUsers;
+
 @end

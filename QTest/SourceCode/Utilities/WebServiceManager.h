@@ -6,8 +6,17 @@
 //  Copyright © 2017 Malik Wahaj Ahmed. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <AFNetworking/AFNetworking.h>
 
-@interface WebServiceManager : NSObject
+#import "WebServiceConstants.h"
+
+@interface WebServiceManager : AFHTTPSessionManager
+
++ (WebServiceManager *)sharedInstance;
+
+- (void)getRequest:(NSString*)urlString
+    controllerView:(UIView*)view
+   completionBlock:(void(^)(id response,NSError * error))completionBlock;
 
 @end
+

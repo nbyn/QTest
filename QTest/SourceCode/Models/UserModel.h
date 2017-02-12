@@ -10,4 +10,14 @@
 
 @interface UserModel : NSObject
 
+@property(nonatomic,strong) NSNumber * userID;
+@property(nonatomic,strong) NSString * name;
+@property(nonatomic,strong) NSString * userName;
+@property(nonatomic,strong) NSString * emailAddress;
+@property(nonatomic,strong) NSString * address;
+
+@property(nonatomic,strong) NSDictionary * userInfoDic;
+
+-(id)initWithUserInfo:(NSDictionary*)userInfo;
+
 @end
