@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  UserModel.h
 //  QTest
 //
 //  Created by Malik Wahaj Ahmed on 13/02/2017.
 //  Copyright © 2017 Malik Wahaj Ahmed. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface UserModel : NSObject
 
 @end
-

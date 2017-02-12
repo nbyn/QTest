@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		9AF56F711E50F0FD00CE723C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56F701E50F0FD00CE723C /* main.m */; };
 		9AF56F741E50F0FD00CE723C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56F731E50F0FD00CE723C /* AppDelegate.m */; };
-		9AF56F771E50F0FD00CE723C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56F761E50F0FD00CE723C /* ViewController.m */; };
 		9AF56F7A1E50F0FE00CE723C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF56F781E50F0FE00CE723C /* Main.storyboard */; };
 		9AF56F7C1E50F0FE00CE723C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF56F7B1E50F0FE00CE723C /* Assets.xcassets */; };
 		9AF56F7F1E50F0FE00CE723C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF56F7D1E50F0FE00CE723C /* LaunchScreen.storyboard */; };
 		9AF56F8A1E50F0FE00CE723C /* QTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56F891E50F0FE00CE723C /* QTestTests.m */; };
+		9AF56F9B1E50F1E000CE723C /* UserListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56F9A1E50F1E000CE723C /* UserListCell.m */; };
+		9AF56F9E1E50F22100CE723C /* UserDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56F9D1E50F22100CE723C /* UserDetailCell.m */; };
+		9AF56FA11E50F24800CE723C /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56FA01E50F24800CE723C /* UserModel.m */; };
+		9AF56FA51E50F26500CE723C /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56FA41E50F26500CE723C /* WebServiceManager.m */; };
+		9AF56FA81E50F27B00CE723C /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56FA71E50F27B00CE723C /* UserListViewController.m */; };
+		9AF56FAB1E50F29300CE723C /* UserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF56FAA1E50F29300CE723C /* UserDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +36,6 @@
 		9AF56F701E50F0FD00CE723C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AF56F721E50F0FD00CE723C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AF56F731E50F0FD00CE723C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9AF56F751E50F0FD00CE723C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9AF56F761E50F0FD00CE723C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9AF56F791E50F0FE00CE723C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AF56F7B1E50F0FE00CE723C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AF56F7E1E50F0FE00CE723C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +43,19 @@
 		9AF56F851E50F0FE00CE723C /* QTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF56F891E50F0FE00CE723C /* QTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTestTests.m; sourceTree = "<group>"; };
 		9AF56F8B1E50F0FE00CE723C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF56F991E50F1E000CE723C /* UserListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListCell.h; sourceTree = "<group>"; };
+		9AF56F9A1E50F1E000CE723C /* UserListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListCell.m; sourceTree = "<group>"; };
+		9AF56F9C1E50F22100CE723C /* UserDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailCell.h; sourceTree = "<group>"; };
+		9AF56F9D1E50F22100CE723C /* UserDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailCell.m; sourceTree = "<group>"; };
+		9AF56F9F1E50F24800CE723C /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		9AF56FA01E50F24800CE723C /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		9AF56FA21E50F25600CE723C /* WebServiceConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebServiceConstants.h; sourceTree = "<group>"; };
+		9AF56FA31E50F26500CE723C /* WebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceManager.h; sourceTree = "<group>"; };
+		9AF56FA41E50F26500CE723C /* WebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceManager.m; sourceTree = "<group>"; };
+		9AF56FA61E50F27B00CE723C /* UserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListViewController.h; sourceTree = "<group>"; };
+		9AF56FA71E50F27B00CE723C /* UserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListViewController.m; sourceTree = "<group>"; };
+		9AF56FA91E50F29300CE723C /* UserDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailViewController.h; sourceTree = "<group>"; };
+		9AF56FAA1E50F29300CE723C /* UserDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +99,7 @@
 			children = (
 				9AF56F721E50F0FD00CE723C /* AppDelegate.h */,
 				9AF56F731E50F0FD00CE723C /* AppDelegate.m */,
-				9AF56F751E50F0FD00CE723C /* ViewController.h */,
-				9AF56F761E50F0FD00CE723C /* ViewController.m */,
+				9AF56F941E50F1B100CE723C /* SourceCode */,
 				9AF56F781E50F0FE00CE723C /* Main.storyboard */,
 				9AF56F7B1E50F0FE00CE723C /* Assets.xcassets */,
 				9AF56F7D1E50F0FE00CE723C /* LaunchScreen.storyboard */,
@@ -109,6 +124,58 @@
 				9AF56F8B1E50F0FE00CE723C /* Info.plist */,
 			);
 			path = QTestTests;
+			sourceTree = "<group>";
+		};
+		9AF56F941E50F1B100CE723C /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				9AF56F951E50F1B100CE723C /* CustomCells */,
+				9AF56F961E50F1B100CE723C /* Models */,
+				9AF56F971E50F1B100CE723C /* Utilities */,
+				9AF56F981E50F1B100CE723C /* ViewControllers */,
+			);
+			path = SourceCode;
+			sourceTree = "<group>";
+		};
+		9AF56F951E50F1B100CE723C /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				9AF56F991E50F1E000CE723C /* UserListCell.h */,
+				9AF56F9A1E50F1E000CE723C /* UserListCell.m */,
+				9AF56F9C1E50F22100CE723C /* UserDetailCell.h */,
+				9AF56F9D1E50F22100CE723C /* UserDetailCell.m */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		9AF56F961E50F1B100CE723C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AF56F9F1E50F24800CE723C /* UserModel.h */,
+				9AF56FA01E50F24800CE723C /* UserModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9AF56F971E50F1B100CE723C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9AF56FA21E50F25600CE723C /* WebServiceConstants.h */,
+				9AF56FA31E50F26500CE723C /* WebServiceManager.h */,
+				9AF56FA41E50F26500CE723C /* WebServiceManager.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9AF56F981E50F1B100CE723C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AF56FA61E50F27B00CE723C /* UserListViewController.h */,
+				9AF56FA71E50F27B00CE723C /* UserListViewController.m */,
+				9AF56FA91E50F29300CE723C /* UserDetailViewController.h */,
+				9AF56FAA1E50F29300CE723C /* UserDetailViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,9 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF56F771E50F0FD00CE723C /* ViewController.m in Sources */,
+				9AF56FA51E50F26500CE723C /* WebServiceManager.m in Sources */,
+				9AF56F9B1E50F1E000CE723C /* UserListCell.m in Sources */,
+				9AF56FA11E50F24800CE723C /* UserModel.m in Sources */,
+				9AF56F9E1E50F22100CE723C /* UserDetailCell.m in Sources */,
 				9AF56F741E50F0FD00CE723C /* AppDelegate.m in Sources */,
 				9AF56F711E50F0FD00CE723C /* main.m in Sources */,
+				9AF56FAB1E50F29300CE723C /* UserDetailViewController.m in Sources */,
+				9AF56FA81E50F27B00CE723C /* UserListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
